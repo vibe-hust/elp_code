@@ -1,6 +1,6 @@
 # Evolving Loop Programs (ELP)
 
-[Project website](https://vibe-hust.github.io/elp/) · [Code repository](https://github.com/vibe-hust/elp_code)
+[🌐 Project website](https://vibe-hust.github.io/elp/) · [💻 Code repository](https://github.com/vibe-hust/elp_code)
 
 *In Submission · Training-Free Multimodal Search & Inference Across Image, Text, and Video*
 
@@ -8,7 +8,9 @@
 
 ---
 
-## Architecture
+<a id="architecture"></a>
+
+## 🗂️ Architecture
 
 ```text
 elp_code/
@@ -54,7 +56,9 @@ elp_code/
 
 ---
 
-## Backbone Integration Matrix
+<a id="backbone-integration-matrix"></a>
+
+## 🧩 Backbone Integration Matrix
 
 All upstream model inference trees are bundled cleanly inside [`third_party/`](third_party/README.md) with zero external cloning required (`--upstream-repo` / env vars remain supported as overrides).
 
@@ -72,7 +76,9 @@ All upstream model inference trees are bundled cleanly inside [`third_party/`](t
 
 ---
 
-## Paper-to-Code Map
+<a id="paper-to-code-map"></a>
+
+## 📝 Paper-to-Code Map
 
 - **Section 3.1 (Executable Loop Operators & AST Safety)**: [program.py](elp/core/program.py) (`LoopProgram`, `validate_program_source`, `invoke_loop_program`, `program_fingerprint`, `freeze_program`, `load_frozen_program`).
 - **Section 3.2 (Read-Only Diagnostic Probes, Eq. 3)**: [diagnostics.py](elp/core/diagnostics.py) (`ProbeSpec`, `DiagnosticCollector`, built-in `activation`/`residual`/`alignment`/`repeat`/`cache` stats + AST-checked `collector_code`).
@@ -82,7 +88,9 @@ All upstream model inference trees are bundled cleanly inside [`third_party/`](t
 
 ---
 
-## Installation
+<a id="installation"></a>
+
+## 🛠️ Installation
 
 The core framework and toy search require Python >= 3.10 and PyTorch:
 
@@ -105,7 +113,9 @@ creates a tokenizer and a tiny safetensors checkpoint without downloading weight
 
 ---
 
-## CLI Guide
+<a id="cli-guide"></a>
+
+## 🚀 CLI Guide
 
 ### 1. List Supported Backbones
 
@@ -196,7 +206,9 @@ python -m elp probe \
 
 ---
 
-## CPU Verification
+<a id="cpu-verification"></a>
+
+## 🧪 CPU Verification
 
 Run the standalone examples and unit test suite on CPU without external weights or API keys:
 
