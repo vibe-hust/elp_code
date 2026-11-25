@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: If you use this work or code, please cite the reference below.
+title: 'Evolving Loop Programs: Discovering How Frozen Transformers Should Loop'
+type: software
+repository-code: https://github.com/vibe-hust/elp_code
+url: https://vibe-hust.github.io/elp/
+authors:
+- given-names: Yang
+  family-names: Chen
+  affiliation: Huazhong University of Science and Technology
+  website: https://github.com/cheyan9
+- given-names: Kaitai
+  family-names: Shen
+  affiliation: Huazhong University of Science and Technology
+  website: https://github.com/Kaitai-Shen
+- given-names: Xuemei
+  family-names: Zhou
+  affiliation: Centrum voor Wiskunde en Informatica (CWI)
+  website: https://www.cwi.nl/en/people/xuemei-zhou/
+- given-names: Teng
+  family-names: Long
+  affiliation: University of Trento
+  website: https://tenglon.github.io/
+- given-names: Vincent Tao
+  family-names: Hu
+  affiliation: Huazhong University of Science and Technology
+  website: https://taohu.me/
+license: MIT
+preferred-citation:
+  type: generic
+  title: 'Evolving Loop Programs: Discovering How Frozen Transformers Should Loop'
+  year: 2026
+  authors:
+  - given-names: Yang
+    family-names: Chen
+  - given-names: Kaitai
+    family-names: Shen
+  - given-names: Xuemei
+    family-names: Zhou
+  - given-names: Teng
+    family-names: Long
+  - given-names: Vincent Tao
+    family-names: Hu
+  url: https://github.com/vibe-hust/elp_code

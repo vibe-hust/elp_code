@@ -236,3 +236,41 @@ PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. python examples/run_toy_search.py
 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. python examples/run_backbone_inference.py
 PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s tests -t . -v
 ```
+
+<a id="acknowledgments"></a>
+
+## 🙏 Acknowledgments
+
+We thank the authors and maintainers of the models and software used by ELP:
+
+- **Image backbones:** [Scale-RAE](https://github.com/ZitengWangNYU/Scale-RAE), [DiffusionBench / RAE](https://github.com/End2End-Diffusion/diffusion-bench), and [Looped-DiT](https://github.com/OpenSenseNova/Looped-DiT).
+- **Text backbones:** [Qwen3](https://github.com/QwenLM/Qwen3) and [Dory1.0-4B](https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16).
+- **Video backbones:** [Self-Forcing](https://github.com/guandeh17/Self-Forcing), [LongLive](https://github.com/NVlabs/LongLive), and [Wan2.1](https://github.com/Wan-Video/Wan2.1).
+- **Runtime libraries:** [PyTorch](https://github.com/pytorch/pytorch), [Transformers](https://github.com/huggingface/transformers), and [Diffusers](https://github.com/huggingface/diffusers).
+
+The [bundled upstream inventory](third_party/README.md) records the source revisions and retained components.
+
+<a id="citation"></a>
+
+## 📚 Citation
+
+If you use this work or code, please cite:
+
+```bibtex
+@misc{chen2026elp,
+  title  = {{Evolving Loop Programs: Discovering How Frozen Transformers Should Loop}},
+  author = {Chen, Yang and Shen, Kaitai and Zhou, Xuemei and Long, Teng and Hu, Vincent Tao},
+  year   = {2026},
+  url    = {https://github.com/vibe-hust/elp_code}
+}
+```
+
+A machine-readable citation is available in [CITATION.cff](CITATION.cff).
+
+<a id="license"></a>
+
+## 📄 License
+
+ELP's original code is released under the [MIT License](LICENSE).
+
+Bundled third-party code retains its upstream terms. Consult the [upstream inventory](third_party/README.md) and the notices included with each component. Model checkpoints are covered by the terms in their respective model cards.
