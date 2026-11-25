@@ -3,7 +3,7 @@ message: If you use this work or code, please cite the reference below.
 title: 'Evolving Loop Programs: Discovering How Frozen Transformers Should Loop'
 type: software
 repository-code: https://github.com/vibe-hust/elp_code
-url: https://vibe-hust.github.io/elp/
+url: https://vibe-hust.github.io/elp_page/
 authors:
 - given-names: Yang
   family-names: Chen

@@ -8,7 +8,7 @@
 <sup>2</sup> Centrum voor Wiskunde en Informatica (CWI)<br>
 <sup>3</sup> University of Trento
 
-[🌐 Project website](https://vibe-hust.github.io/elp/) · [💻 Code repository](https://github.com/vibe-hust/elp_code)
+[🌐 Project website](https://vibe-hust.github.io/elp_page/) · [💻 Code repository](https://github.com/vibe-hust/elp_code)
 
 *In Submission · Training-Free Multimodal Search & Inference Across Image, Text, and Video*
 
