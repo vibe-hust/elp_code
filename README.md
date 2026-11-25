@@ -8,6 +8,17 @@
 
 ---
 
+
+<a id="method-in-motion"></a>
+
+## 🎬 Method in motion
+
+![ELP method animation](docs/assets/method-intro.gif)
+
+An illustrated example of program proposal, execution, feedback, and frozen replay.
+
+[Static overview](docs/assets/method-overview.png) · [Animation source and notes](docs/method-animation.md)
+
 <a id="architecture"></a>
 
 ## 🗂️ Architecture
