@@ -1,5 +1,13 @@
 # Evolving Loop Programs (ELP)
 
+<a id="authors"></a>
+
+**👥 Authors:** [Yang Chen](https://github.com/cheyan9)<sup>1</sup> · [Kaitai Shen](https://github.com/Kaitai-Shen)<sup>1</sup> · [Xuemei Zhou](https://www.cwi.nl/en/people/xuemei-zhou/)<sup>2</sup> · [Teng Long](https://tenglon.github.io/)<sup>3</sup> · [Vincent Tao Hu](https://taohu.me/)<sup>1</sup>
+
+<sup>1</sup> Huazhong University of Science and Technology<br>
+<sup>2</sup> Centrum voor Wiskunde en Informatica (CWI)<br>
+<sup>3</sup> University of Trento
+
 [🌐 Project website](https://vibe-hust.github.io/elp/) · [💻 Code repository](https://github.com/vibe-hust/elp_code)
 
 *In Submission · Training-Free Multimodal Search & Inference Across Image, Text, and Video*
