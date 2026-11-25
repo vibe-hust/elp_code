@@ -1,0 +1,52 @@
+"""Evolving Loop Programs (ELP): Discovering How Frozen Transformers Should Loop."""
+
+from .agent import AgentSearchRunner, WorkspaceTool, create_agent_session
+from .backends import BackboneAdapter, InferenceResult, get_adapter, list_backbones
+from .core import (
+    DiagnosticCollector,
+    DiagnosticRequest,
+    EvalResult,
+    EvaluateRequest,
+    LoopProgram,
+    ProbeSpec,
+    SearchConfig,
+    SearchCoordinator,
+    SearchResult,
+    freeze_program,
+    hypervolume,
+    invoke_loop_program,
+    load_frozen_program,
+    load_program_callable,
+    pareto_frontier,
+    program_fingerprint,
+    select_representatives,
+    validate_program_source,
+)
+
+__all__ = [
+    "AgentSearchRunner",
+    "BackboneAdapter",
+    "DiagnosticCollector",
+    "DiagnosticRequest",
+    "EvalResult",
+    "EvaluateRequest",
+    "InferenceResult",
+    "LoopProgram",
+    "ProbeSpec",
+    "SearchConfig",
+    "SearchCoordinator",
+    "SearchResult",
+    "WorkspaceTool",
+    "create_agent_session",
+    "freeze_program",
+    "get_adapter",
+    "hypervolume",
+    "invoke_loop_program",
+    "list_backbones",
+    "load_frozen_program",
+    "load_program_callable",
+    "pareto_frontier",
+    "program_fingerprint",
+    "select_representatives",
+    "validate_program_source",
+]
